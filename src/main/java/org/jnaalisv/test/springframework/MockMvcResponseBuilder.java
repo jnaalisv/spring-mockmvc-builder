@@ -1,4 +1,4 @@
-package jnaalisv.test;
+package org.jnaalisv.test.springframework;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

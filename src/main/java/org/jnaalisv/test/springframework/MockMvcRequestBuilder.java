@@ -1,4 +1,4 @@
-package jnaalisv.test;
+package org.jnaalisv.test.springframework;
 
 import java.util.Arrays;
 import java.util.List;

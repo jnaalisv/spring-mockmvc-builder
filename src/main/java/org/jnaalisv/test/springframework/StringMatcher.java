@@ -1,4 +1,4 @@
-package jnaalisv.test;
+package org.jnaalisv.test.springframework;
 
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
