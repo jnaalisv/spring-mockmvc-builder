@@ -52,6 +52,10 @@ public class MockMvcResponseBuilder {
         return expectStatus(HttpStatus.CONFLICT);
     }
 
+    public MockMvcResponseBuilder expect500() {
+        return expectStatus(HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
     private MockMvcResponseBuilder expectStatus(HttpStatus httpStatus) {
         try {
             resultActions.andExpect(status().is(httpStatus.value()));

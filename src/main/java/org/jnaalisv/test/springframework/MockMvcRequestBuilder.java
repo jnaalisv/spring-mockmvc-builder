@@ -101,12 +101,27 @@ public class MockMvcRequestBuilder {
         return perform().expect201();
     }
 
+    public MockMvcResponseBuilder expect400() {
+        return perform().expect400();
+    }
+
     public MockMvcResponseBuilder expect401() {
         return perform().expect401();
     }
 
+    public MockMvcResponseBuilder expect403() {
+        return perform().expect403();
+    }
+
     public MockMvcResponseBuilder expect404() {
         return perform().expect404();
+    }
+
+    public MockMvcResponseBuilder expect409() {
+        return perform().expect409();
+    }
+    public MockMvcResponseBuilder expect500() {
+        return perform().expect500();
     }
 
     public MockMvcResponseBuilder perform() {
