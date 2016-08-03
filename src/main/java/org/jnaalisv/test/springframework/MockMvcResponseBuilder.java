@@ -48,6 +48,10 @@ public class MockMvcResponseBuilder {
         return expectStatus(HttpStatus.NOT_FOUND);
     }
 
+    public MockMvcResponseBuilder expect409() {
+        return expectStatus(HttpStatus.CONFLICT);
+    }
+
     private MockMvcResponseBuilder expectStatus(HttpStatus httpStatus) {
         try {
             resultActions.andExpect(status().is(httpStatus.value()));
