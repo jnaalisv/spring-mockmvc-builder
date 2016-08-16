@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
+import org.jnaalisv.test.springframework.internal.StringMatcher;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.web.servlet.ResultActions;
 
