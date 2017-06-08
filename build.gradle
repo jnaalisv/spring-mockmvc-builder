@@ -9,7 +9,7 @@ repositories {
 }
 
 ext {
-    springVersion = "4.3.8.RELEASE"
+    springVersion = "4.3.9.RELEASE"
     jacksonVersion = "2.8.8"
     servletApiVersion = "3.1.0"
 }
@@ -31,7 +31,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId "org.jnaalisv"
-            version "1.4"
+            version "1.5"
 
             from components.java
 
