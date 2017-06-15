@@ -40,5 +40,5 @@ publishing {
 }
 
 wrapper {
-    gradleVersion = "3.5"
+    gradleVersion = "4.0"
 }
