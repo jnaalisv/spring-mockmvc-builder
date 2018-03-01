@@ -38,7 +38,3 @@ publishing {
         }
     }
 }
-
-wrapper {
-    gradleVersion = "4.5"
-}
